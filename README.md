@@ -7,4 +7,6 @@ It uses the pathlib and os modules for handling files and directories and also i
 
 # OUTPUT
 
+![Image](https://github.com/user-attachments/assets/667435ab-a38e-4262-97b3-9c1f3f97686f)
+
 
