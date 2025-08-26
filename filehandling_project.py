@@ -16,7 +16,7 @@ def createfile():
          name = input("please tell your file name : ")
          p = Path(name)
          if not p.exists():  #checks if the file with the same file name exists in the current folder / directory or not 
-              with open(p,'w') as fs:   #what closes the python file automatically
+              with open(p,'w') as fs:   #with closes the python file automatically
                   data = input("What you want to write in this file : ")
                   fs.write(data)
               print("FILE CREATED SUCCESFULLY\n")
@@ -111,3 +111,4 @@ if check == 4:
 
 
                
+
